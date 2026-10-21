@@ -17,11 +17,12 @@ h1,h2,h3{font-family:Fraunces,Georgia,serif;letter-spacing:-.5px;margin:0}
 .soon{display:block;margin-top:14px;font-size:14px;color:var(--muted)}
 .card{position:relative;background:var(--cream);border-radius:16px;overflow:hidden;box-shadow:0 14px 36px rgba(59,47,42,.14);max-width:380px;justify-self:center;width:100%}
 .card img{display:block;width:100%;height:300px;object-fit:cover}
-.card .why{padding:18px 20px 48px}
+.card .photo{position:relative}
+.card .why{padding:18px 20px 22px}
 .label{font-size:12px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;color:var(--muted)}
 .card .why p{font:500 23px/1.2 Fraunces,Georgia,serif;margin:6px 0 0}
-.btn{position:absolute;bottom:-1px;width:60px;height:60px;border-radius:999px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 20px rgba(59,47,42,.22);transform:translateY(-14px)}
-.btn.dump{left:18px;background:var(--cream)}.btn.keep{right:18px;background:var(--sage)}
+.btn{position:absolute;bottom:16px;width:56px;height:56px;border-radius:999px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 20px rgba(59,47,42,.28)}
+.btn.dump{left:16px;background:var(--cream)}.btn.keep{right:16px;background:var(--sage)}
 .features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding-bottom:72px}
 .feature{background:var(--cream);border-radius:16px;padding:24px}
 .feature h3{font-size:24px;font-weight:600;margin:8px 0 8px}
@@ -36,3 +37,6 @@ footer{border-top:1px solid var(--latte);padding:28px 0 40px;display:flex;flex-w
 footer nav{display:flex;gap:20px;flex-wrap:wrap}
 footer a{color:var(--cocoa)}
 @media (max-width:760px){.hero{grid-template-columns:1fr;gap:40px;padding:24px 0 56px}.features{grid-template-columns:1fr}}
+.ig{display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 16px;border:1.5px solid var(--cocoa);border-radius:999px;color:var(--cocoa);text-decoration:none;font-weight:700;font-size:15px;transition:background .15s,color .15s}
+.ig:hover{background:var(--cocoa);color:var(--cream)}
+@media (max-width:420px){.ig span{display:none}.ig{width:44px;padding:0;justify-content:center}}
