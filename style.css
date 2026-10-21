@@ -1,4 +1,4 @@
-@import url(/fonts/fonts.css);
+@import url(/fonts/fonts.css?v=2);
 :root{--oat:#F4EDE3;--latte:#E8DCCB;--cream:#FBF7F1;--cocoa:#3B2F2A;--muted:#6E5E54;--sage:#4F6F4C;--clay:#B5472F;--blush:#F2C6B4;color-scheme:light}
 *{box-sizing:border-box}
 body{margin:0;background:var(--oat);color:var(--cocoa);font:400 17px/1.55 'DM Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
